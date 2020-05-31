@@ -1,0 +1,15 @@
+object MyClass {
+    def calculateSalary(wh: Int,OT: Int){
+        var takehomesal:Double=0;
+        takehomesal=(wh*150 + OT*75)*0.9
+        print(takehomesal)
+
+    }
+    
+    
+    def main(args: Array[String]) {
+        calculateSalary(40,20)
+
+        
+    }
+}
